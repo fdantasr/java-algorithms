@@ -5,13 +5,14 @@ public class Account {
 
     //Contrutores
     public Account(){}
-    public Account (String name){
-        this.name = name;
+    public Account (String _name){
+        
+        this.name = _name;
     }
     //
 
-    public void SetName(String name) {
-        this.name = name;        
+    public void SetName(String _name) {
+        this.name = _name;        
     }
 
     public String getName(){
